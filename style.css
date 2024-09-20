@@ -203,6 +203,27 @@ p{
     left: 0;
 }
 
+#header .nav-list ul a {
+    font-size: 2.5rem;
+    font-weight: 500;
+    letter-spacing: 0,2rem;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    display: block;
+    padding: 20px;
+}
+
+#header .nav-list ul a::after {
+    content: attr(data-after);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(50% -50%) scale(0);
+    color: rgba(240red, 248, 255, 0);
+
+}
+
 
 
  
